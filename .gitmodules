@@ -1,0 +1,3 @@
+[submodule "st2-docker"]
+	path = st2-docker
+	url = https://github.com/StackStorm/st2-docker.git

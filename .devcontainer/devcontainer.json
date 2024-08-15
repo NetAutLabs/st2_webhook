@@ -1,0 +1,8 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:linux",
+    "hostRequirements": {
+        "cpus": 2,
+        "memory": "8gb",
+        "storage": "32gb"
+    }
+}
