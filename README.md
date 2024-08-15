@@ -5,7 +5,7 @@ tags:
   - codespaces
 ---
 
-# Triggering a ST2 Workflow
+# Triggering an ST2 Workflow
 
 
 |             |                                                                                             |
@@ -32,7 +32,7 @@ The tasks are divided into multiple subsections. Information can be found in the
 
 ### Workflow
 
-Create a workflow. We use `core.echo`, `core.pause`, `core.noop` to simulate a workflow that takes a "Service ID" as an input and deployes the service in parallel on two systems. After both jobs are finished (join all), the monitoring system is updated, and a notification is sent.
+Create a workflow. We use `core.echo`, `core.pause`, `core.noop` to simulate a workflow that takes a "Service ID" as input and deploys the service in parallel on two systems. After both jobs are finished (join all), the monitoring system is updated, and a notification is sent.
 
 ![workflow](imgs/workflow.png)
 
