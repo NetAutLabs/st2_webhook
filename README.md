@@ -5,7 +5,7 @@ tags:
   - codespaces
 ---
 
-# L3VPN Services with Nornir
+# Triggering a ST2 Workflow
 
 
 |             |                                                                                             |
@@ -41,7 +41,7 @@ Create a workflow. We use `core.echo`, `core.pause`, `core.noop` to simulate a w
 
 Create a rule which uses the `core.st2_webhook` (URL: "deploy_service") as a trigger for the workflow created before. Make sure the service ID is passed to the workflow.
 
-![workflow](imgs/rule.png)
+![rule](imgs/rule.png)
 
 
 ### Trigger Webhook
@@ -65,7 +65,7 @@ $ curl -X POST http://localhost/api/v1/webhooks/deploy_service -H "St2-Api-Key: 
 
 If everything goes well, in the "history" tab, the workflow execution should look like the following:
 
-![workflow](imgs/workflow.png)
+![workflow execution](imgs/workflow_execution.png)
 
 ## Next Steps
 
