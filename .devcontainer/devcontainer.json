@@ -5,5 +5,5 @@
         "memory": "8gb",
         "storage": "32gb"
     },
-    "postCreateCommand": "git submodule update"
+    "postCreateCommand": "git submodule update --init --recursive"
 }
