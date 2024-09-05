@@ -15,6 +15,11 @@ tags:
 | Discussion  | [Discussion GitHub Repo](https://github.com/NetAutLabs/st2_webhook/discussions)             |
 | Codespaces  | :material-check: [GitHub Codespaces](https://codespaces.new/NetAutLabs/st2_webhook)         |
 
+<div align=center>
+<a href="https://codespaces.new/NetAutLabs/NetAutLabs/st2_webhook?quickstart=1">
+<img src="https://gitlab.com/rdodin/pics/-/wikis/uploads/d78a6f9f6869b3ac3c286928dd52fa08/run_in_codespaces-v1.svg?sanitize=true" style="width:50%"/>
+</a>
+</div>
 
 In this lab, you'll explore StackStorm and create a workflow that can be triggered by a webhook.
 
